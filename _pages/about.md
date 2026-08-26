@@ -18,9 +18,9 @@ latest_posts:
 
 I am an incoming PhD student in the
 [Konrad Zuse School of Excellence in Learning and Intelligent Systems
-(ELIZA)](https://eliza.school/), joining the
+(ELIZA)](https://eliza.school/) and will join the
 [Ubiquitous Knowledge Processing (UKP) Lab](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp)
-at TU Darmstadt. I will be supervised by
+at TU Darmstadt on **1 December 2026**. I will be supervised by
 [Prof. Dr. Iryna Gurevych](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp)
 and co-supervised by [Prof. Valentin Hofmann](https://valentinhofmann.github.io/).
 
