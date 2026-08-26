@@ -1,9 +1,27 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Bioinformatics":
+  url: https://academic.oup.com/bioinformatics
+  color: "#28657d"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Future Internet":
+  url: https://www.mdpi.com/journal/futureinternet
+  color: "#0072a8"
 
-"Vision":
-  color: "#009f36"
+"ICVGIP":
+  url: https://dl.acm.org/conference/icvgip
+  color: "#b31b1b"
+
+"IJCNN":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000500/all-proceedings
+  color: "#00629b"
+
+"LREC":
+  url: https://aclanthology.org/venues/lrec/
+  color: "#6750a4"
+
+"SAC":
+  url: https://www.sigapp.org/sac/
+  color: "#0085ca"
+
+"TALLIP":
+  url: https://dl.acm.org/journal/tallip
+  color: "#a51c30"
