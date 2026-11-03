@@ -4,6 +4,16 @@ title: about
 permalink: /
 subtitle: Incoming PhD Student · <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp">UKP Lab</a> · TU Darmstadt
 
+profile:
+  align: right
+  image: gopalakrishnan-venkatesh.jpeg
+  image_alt: Portrait of Gopalakrishnan Venkatesh
+  image_width: 183
+  image_height: 183
+  image_circular: false
+  compact: true
+  avoid_scaling: true
+
 selected_papers: true
 social: true
 

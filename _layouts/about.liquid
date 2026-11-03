@@ -16,9 +16,12 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div
+        class="profile{% if page.profile.compact %} profile-compact{% endif %} float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
+      >
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
@@ -28,8 +31,8 @@ layout: default
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
+            width=page.profile.image_width height=page.profile.image_height avoid_scaling=page.profile.avoid_scaling cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}
