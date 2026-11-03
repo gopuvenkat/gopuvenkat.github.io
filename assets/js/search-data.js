@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-i-will-join-the-ukp-lab-at-tu-darmstadt-on-1-december-2026-as-a-phd-student-in-the-eliza-program",
-          title: 'I will join the UKP Lab at TU Darmstadt on 1 December 2026...',
+        },{id: "news-i-will-join-the-ukp-lab-at-tu-darmstadt-on-15-december-2026-as-a-phd-student-in-the-eliza-program",
+          title: 'I will join the UKP Lab at TU Darmstadt on 15 December 2026...',
           description: "",
           section: "News",},{
         id: 'social-email',
